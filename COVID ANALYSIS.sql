@@ -1,7 +1,8 @@
 ﻿-- PROJECT: Exploring COVID Data
 -- Project by Bernard Muola
-
+-- This project is taking place on Microsoft SQL Server
 -- Retrieving all data related to COVID 
+
 SELECT *
 FROM PROJECT001.dbo.[c.deaths]
 WHERE continent IS NOT NULL
